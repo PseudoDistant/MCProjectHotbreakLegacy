@@ -1,16 +1,15 @@
-# Fabric Example Mod
+#Project Hotbreak Legacy 1.8.9
+A mod that attempts to unpatch Minecraft bugs using the Fabric Legacy modloader.
+(This version is for 1.8.9 specifically, a 1.12.2 release is also planned.)
 
-## Setup
+For the original (and modern) project, go here: \
+https://github.com/FarLanderCraft/MCProjectHotbreak
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+##How you can help
+You can help by either requesting bugs in Issues, or by making your own antipatches and submitting them to me via Pull Request.\
+(If you submit a pull request with one or more antipatches you will be credited for your work.)
 
-```
-./gradlew idea
-```
+##License
+##### MIT
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Feel free to use the files from this mod in any way you'd like. :)
